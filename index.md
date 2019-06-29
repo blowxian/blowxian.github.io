@@ -1,8 +1,3 @@
----
-title: 配置Github Page小记
-layout: post
----
-
 # 配置Github Page小记
 
 ### 关于配置的主要操作流程

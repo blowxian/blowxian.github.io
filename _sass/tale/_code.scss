@@ -1,6 +1,6 @@
 pre,
 code {
-  font-family: $monospaced;
+  font-family: $codefont;
 }
 
 code {
@@ -27,7 +27,7 @@ pre code {
   border-radius: 3px;
   line-height: 1.4;
   margin: 0 0 1rem;
-  padding: 1rem;
+  padding: .25rem;
 
   pre {
     margin-bottom: 0;

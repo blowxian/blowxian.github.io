@@ -12,7 +12,7 @@ published: true
 
 可以参照Github Page提供的操作指南不赘述，传送门：
 [Github配置官方操作流程](https://pages.github.com)
-![](https://raw.githubusercontent.com/blowxian/blowxian.github.io/master/_posts/blog-img0001.png)
+![](/assets/blog-img0001.png)
 
 ### 本小记主要分享操作过程中几个问题
 

@@ -4,6 +4,7 @@ title: 配置Github Page小记
 date: '2019-06-29 20:27:37 +0800'
 categories: 日常Log
 published: true
+author: Lison
 ---
 
 # 配置Github Page小记

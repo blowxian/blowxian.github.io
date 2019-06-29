@@ -6,9 +6,6 @@ categories: 日常Log
 published: true
 author: Lison
 ---
-
-# 配置Github Page小记
-
 ### 关于配置的主要操作流程
 
 可以参照Github Page提供的操作指南不赘述，传送门：

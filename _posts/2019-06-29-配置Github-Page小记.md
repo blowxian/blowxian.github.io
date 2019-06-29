@@ -11,8 +11,8 @@ published: true
 ### 关于配置的主要操作流程
 
 可以参照Github Page提供的操作指南不赘述，传送门：
-
 [Github配置官方操作流程](https://pages.github.com)
+![]({{site.baseurl}}/_posts/WX20190629-223730%402x.png)
 
 ### 本小记主要分享操作过程中几个问题
 
@@ -22,5 +22,4 @@ published: true
 ### 如何编写内容
 
 网上提供了很多方式编写Github Page上内容的方法、工具，这里分享下自己的常用的工具**Typora**（一款肥肠精致的Markdown编辑工具），传送门：
-
 [Typora官网](https://typora.io/)

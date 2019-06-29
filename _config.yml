@@ -23,6 +23,7 @@ github_username:  blowxian
 
 # Build settings
 markdown: kramdown
+keep_files: ["_posts"]
 theme: minima
 plugins:
   - jekyll-feed

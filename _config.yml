@@ -46,9 +46,10 @@ paginate:     5
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [ Gemfile, Gemfile.lock ]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

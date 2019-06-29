@@ -22,4 +22,7 @@ published: true
 ### 如何编写内容
 
 网上提供了很多方式编写Github Page上内容的方法、工具，这里分享下自己的常用的工具**Typora**（一款肥肠精致的Markdown编辑工具），传送门：
-[Typora官网](https://typora.io/)
+[Typora官网](https://typora.io)
+
+另外推荐款在线编辑的工具。直接授权访问Github账户，可以非常方便访问，传送门：
+[Prose.io](https://prose.io)

@@ -20,20 +20,32 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  blowxian
+author: Lison
 
 # Build settings
 markdown: kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
 # theme: minima
 # plugins:
 #   - jekyll-feed
 
-remote_theme: chesterhow/tale
+# remote_theme: chesterhow/tale
 permalink:    /:year-:month-:day/:title
 paginate:     5
 
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

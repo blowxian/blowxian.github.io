@@ -18,11 +18,11 @@ author: Lison
 2. 开始直接自己在repo中添加了md文档和_config.yml，虽然可以把Page跑起来，但并没有基于Jekyll更为方便。因为Jekyll帮我们做好了**文件目录**、**预设各默认页面**，同时Jekyll本身还有很多插件可用，虽然我现在还没用到；
 3. 如果需要使用非系统自带主题，需要在_config.yml里面添加remote_theme，且前提需要在gemfile里面添加对于jekyll-remote-theme的依赖，具体是下面两步：
 	1. 在根目录的Gemfile里添加如下内容：
-```
+```shell
 gem "jekyll-remote-theme"
 ```
 	2. 运行下面的命令，完成所以依赖组件的安装：
-```
+```shell
 $ bundle
 ```
 

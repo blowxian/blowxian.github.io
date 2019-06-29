@@ -1,5 +1,6 @@
 ---
 published: true
+title: 基于umi,dva以及antd的前端开发环境搭建小记
 layout: post
 categories: 日常Log
 author: Lison

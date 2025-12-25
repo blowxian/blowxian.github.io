@@ -2,14 +2,26 @@
 layout: post
 title: About
 permalink: /about/
-author: Lison
+author: Lucas Reed
 ---
 
-我是 Lison，独立开发者。
+<img src="/assets/avatar.png" alt="Lucas Reed" style="width: 120px; height: 120px; border-radius: 50%; margin-bottom: 1.5rem;">
 
-写代码，做产品，记录想法。
+Hi, I'm **Lucas Reed** — an indie builder focused on AI and mental health tools.
+
+I build products that help people gain clarity about themselves and grow. Currently working on autism assessment tools and voice AI applications.
 
 ---
+
+## What I'm Building
+
+- **[RAADS-R Test](https://raadsrtest.com)** — Free autism spectrum self-assessment
+- **[MindSpectrum](https://mindspectrum.org)** — Professional autism assessment platform
+- **[FunAudioChat](https://funaudiochat.org)** — End-to-end speech AI powered by Alibaba's open-source tech
+
+---
+
+## Connect
 
 - GitHub: [blowxian](https://github.com/blowxian)
-- Email: lisonallen@qq.com
+- Email: lucas@lucasreed.dev

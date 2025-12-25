@@ -5,4 +5,11 @@ permalink: /about/
 author: Lison
 ---
 
-Just logs, all kinds logs.
+我是 Lison，独立开发者。
+
+写代码，做产品，记录想法。
+
+---
+
+- GitHub: [blowxian](https://github.com/blowxian)
+- Email: lisonallen@qq.com

@@ -1,6 +1,40 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Products Hub
 ---
+
+<div class="hero">
+  <h1 class="hero-title">Lison's Products</h1>
+  <p class="hero-subtitle">独立开发者作品集。专注于心理健康工具和 AI 应用开发。</p>
+</div>
+
+<section class="products-section">
+  <div class="products-header">
+    <h2>产品列表</h2>
+    <p>以下是我开发和维护的产品，欢迎访问体验。</p>
+  </div>
+
+  <div class="products-grid">
+    {% for product in site.data.products %}
+      {% include product-card.html product=product %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="products-section">
+  <div class="products-header">
+    <h2>最新文章</h2>
+    <p>技术笔记和想法记录。<a href="{{ '/blog/' | relative_url }}">查看全部 &rarr;</a></p>
+  </div>
+
+  <div class="catalogue">
+    {% for post in site.posts limit:3 %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+        <div>
+          <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <h1 class="catalogue-title">{{ post.title }}</h1>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>

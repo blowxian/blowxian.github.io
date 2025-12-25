@@ -1,0 +1,32 @@
+- name: RAADS-R Test
+  url: https://raadsrtest.com
+  description: 免费的自闭症谱系自评量表，基于科学研究的 RAADS-R 测试工具，帮助成年人进行自闭症特质筛查。
+  tagline: Free Autism Spectrum Self-Assessment
+  category: 心理健康
+  features:
+    - 科学验证的测试量表
+    - 完全免费使用
+    - 即时获得评估结果
+    - 隐私保护
+
+- name: MindSpectrum
+  url: https://mindspectrum.org
+  description: 专业的自闭症评估平台，提供 RAADS-R、AQ、CAT-Q 等多种科学量表，帮助用户全面了解自己的神经多样性特质。
+  tagline: Professional Autism Assessment Platform
+  category: 心理健康
+  features:
+    - 多种专业评估量表
+    - 详细的结果分析
+    - 科学可靠的测试方法
+    - 用户友好的界面
+
+- name: FunAudioChat
+  url: https://funaudiochat.org
+  description: 基于阿里巴巴开源的 FunAudioLLM 技术，提供端到端的语音对话 AI 体验，支持语音识别、理解和合成的一体化交互。
+  tagline: End-to-End Speech-to-Speech AI
+  category: AI 工具
+  features:
+    - 端到端语音交互
+    - 基于阿里巴巴开源技术
+    - 自然流畅的对话体验
+    - 高质量语音合成

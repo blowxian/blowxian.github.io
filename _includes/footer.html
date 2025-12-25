@@ -1,5 +1,11 @@
 <footer>
+  <div class="footer-products">
+    {% for product in site.data.products %}
+    <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a>
+    {% unless forloop.last %}<span class="footer-sep">·</span>{% endunless %}
+    {% endfor %}
+  </div>
   <span>
-    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author }}
   </span>
 </footer>

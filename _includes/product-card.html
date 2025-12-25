@@ -1,0 +1,20 @@
+<article class="product-card">
+  <div class="product-card-header">
+    <h3 class="product-card-title">
+      <a href="{{ include.product.url }}" target="_blank" rel="noopener">{{ include.product.name }}</a>
+    </h3>
+    <span class="product-card-category">{{ include.product.category }}</span>
+  </div>
+  <p class="product-card-tagline">{{ include.product.tagline }}</p>
+  <p class="product-card-description">{{ include.product.description }}</p>
+  {% if include.product.features %}
+  <ul class="product-card-features">
+    {% for feature in include.product.features %}
+    <li>{{ feature }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <a href="{{ include.product.url }}" class="product-card-link" target="_blank" rel="noopener">
+    访问网站 &rarr;
+  </a>
+</article>
